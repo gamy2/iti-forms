@@ -1,0 +1,20 @@
+.reg-container{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: black;
+    background-image: url(./Group1.svg), url(./Group2.svg);
+    background-position: 100% 120%, top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+form{
+    width: 50%;
+    border-radius: 15px;
+    border: 1px gray solid;
+    background-color: white;
+    padding: 20px;
+   
+}
