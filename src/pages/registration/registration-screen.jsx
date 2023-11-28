@@ -1,7 +1,8 @@
 import React from 'react';
 import './registraton-screen.css';
 import Input from '../../components/input/input';
-import CertificateComponent from '../../components/certificate-component/certificate-component';
+// import CertificateComponent from '../../components/certificate-component/certificate-component';
+import SkillsComponent from '../../components/skills-component/skills_component';
 
 
 
@@ -60,7 +61,8 @@ const RegistrationScreen = () => {
     
     <div className='col-12'>
         {/* <label htmlFor="" className='col-11'>Certificate</label> <div className='col-1 btn btn-sm btn-outline-success' onClick={renderCertifcate}>+</div> */}
-<CertificateComponent />
+{/* <CertificateComponent /> */}
+<SkillsComponent />
     </div>
 
     <input type="submit" />
