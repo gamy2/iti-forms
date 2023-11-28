@@ -10,7 +10,7 @@ const RegistrationScreen = () => {
     return (
        <section className='reg-container '>
 <form get="" className='row g-3'>
-    <div className='col-6'>
+    {/* <div className='col-6'>
         <label htmlFor="">
             Fname
         </label>
@@ -56,9 +56,9 @@ const RegistrationScreen = () => {
             Upload your C.V.
         </label>
     <Input type="file" />
-    </div>
+    </div> */}
     
-    <div className='col-12 row mt-2 align-items-center'>
+    <div className='col-12'>
         {/* <label htmlFor="" className='col-11'>Certificate</label> <div className='col-1 btn btn-sm btn-outline-success' onClick={renderCertifcate}>+</div> */}
 <CertificateComponent />
     </div>
